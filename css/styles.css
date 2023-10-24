@@ -51,7 +51,7 @@ body {
   color: var(--black-color);
 }
 
-.logo span {
+.logo-color {
   color: var(--accent-color);
 }
 
@@ -74,15 +74,10 @@ body {
 /* End Site nav */
 
 /* Сontact in header */
-.contact-hdr.link {
+.contact-list .top.link {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-}
-
-.contact-hdr.link:hover,
-.contact-hdr.link:focus {
-  color: var(--accent-color);
 }
 /* End Сontact in header */
 
@@ -160,16 +155,15 @@ body {
 /* Сontact in footer */
 .addr {
   font-style: normal;
-  color: #FFF;
   line-height: 1.71;
 }
 
-.contact-ftr.link {
+.contact-list .bottom.link {
   color: var(--transparent-white-color);
 }
 
-.contact-ftr.link:hover,
-.contact-ftr.link:focus {
+.contact-list .link:hover,
+.contact-list .link:focus {
   color: var(--accent-color);
 }
 /* End Сontact in footer */
